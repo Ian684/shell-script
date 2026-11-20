@@ -24,3 +24,4 @@ status=0
 sh practice/retry.sh 2 sh -c 'exit 7' 2>/dev/null || status=$?
 [ "$status" = 7 ]
 printf '4 shell exercises: syntax and behavior passed\n'
+python3 tests/more.py

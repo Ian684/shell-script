@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "title": "日誌統計",
+    "source": "practice/log_summary.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 2,
+    "title": "重試與結束碼",
+    "source": "practice/retry.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 3,
+    "title": "TSV 庫存統計",
+    "source": "practice/inventory_totals.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 4,
+    "title": "目錄快照",
+    "source": "practice/snapshot.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 5,
+    "title": "參數與空白邊界",
+    "source": "practice/05_argument_count.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 6,
+    "title": "getopts 選項解析",
+    "source": "practice/06_options.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 7,
+    "title": "整數參數加總",
+    "source": "practice/07_sum.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 8,
+    "title": "最大值與無輸入",
+    "source": "practice/08_maximum.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 9,
+    "title": "迴圈與數值上限",
+    "source": "practice/09_factorial.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 10,
+    "title": "條件判斷優先順序",
+    "source": "practice/10_fizzbuzz.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 11,
+    "title": "有界整數序列",
+    "source": "practice/11_range.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 12,
+    "title": "餘數與交換變數",
+    "source": "practice/12_gcd.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 13,
+    "title": "十進位轉二進位",
+    "source": "practice/13_binary.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 14,
+    "title": "ASCII 回文與 tr",
+    "source": "practice/14_palindrome.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 15,
+    "title": "逐行反轉字元",
+    "source": "practice/15_reverse_lines.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 16,
+    "title": "修剪每行兩端空白",
+    "source": "practice/16_trim.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 17,
+    "title": "合併行內空白",
+    "source": "practice/17_collapse.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 18,
+    "title": "列號與空白列",
+    "source": "practice/18_line_numbers.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 19,
+    "title": "相鄰重複與 uniq",
+    "source": "practice/19_adjacent_unique.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 20,
+    "title": "保留首次出現順序",
+    "source": "practice/20_unique_order.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 21,
+    "title": "數字排序不是字典序",
+    "source": "practice/21_numeric_sort.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 22,
+    "title": "行頻率與確定性排序",
+    "source": "practice/22_frequency.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 23,
+    "title": "最長行平手取第一個",
+    "source": "practice/23_longest_line.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 24,
+    "title": "字面文字替換而非正規式",
+    "source": "practice/24_literal_replace.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 25,
+    "title": "指定 TSV 欄位",
+    "source": "practice/25_tsv_column.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 26,
+    "title": "CSV 引號跳脫",
+    "source": "practice/26_csv_quote.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 27,
+    "title": "以分隔符串接",
+    "source": "practice/27_join_lines.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 28,
+    "title": "字元分隔轉行",
+    "source": "practice/28_split_colon.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 29,
+    "title": "跳過註解與空行",
+    "source": "practice/29_comments.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 30,
+    "title": "空白列計數",
+    "source": "practice/30_blank_count.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 31,
+    "title": "欄位檢查與失敗碼",
+    "source": "practice/31_sum_column.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 32,
+    "title": "逐列累計",
+    "source": "practice/32_running_sum.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 33,
+    "title": "數字字元直方圖",
+    "source": "practice/33_digit_histogram.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 34,
+    "title": "GNU date 與嚴格往返",
+    "source": "practice/34_validate_date.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 35,
+    "title": "秒數轉時分秒",
+    "source": "practice/35_duration.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 36,
+    "title": "UTC 日期差",
+    "source": "practice/36_days_between.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 37,
+    "title": "awk 的容量格式",
+    "source": "practice/37_human_bytes.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 38,
+    "title": "參數展開取副檔名",
+    "source": "practice/38_extension.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 39,
+    "title": "find 計數支援空白檔名",
+    "source": "practice/39_count_files.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 40,
+    "title": "找空檔案",
+    "source": "practice/40_empty_files.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 41,
+    "title": "標準輸入校驗碼",
+    "source": "practice/41_sha256.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 42,
+    "title": "解碼的錯誤碼",
+    "source": "practice/42_base64_decode.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 43,
+    "title": "唯讀檢視壓縮檔",
+    "source": "practice/43_tar_list.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 44,
+    "title": "目錄副檔名統計",
+    "source": "practice/44_extension_report.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 45,
+    "title": "trap 清理暫存資源",
+    "source": "practice/45_temporary_cleanup.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 46,
+    "title": "mkdir 互斥鎖",
+    "source": "practice/46_directory_lock.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 47,
+    "title": "wait 保留背景結束碼",
+    "source": "practice/47_background_status.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 48,
+    "title": "分開 stdout 與 stderr",
+    "source": "practice/48_stderr_capture.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 49,
+    "title": "NUL 分隔的檔名管線",
+    "source": "practice/49_null_paths.sh",
+    "entry": "",
+    "goal": ""
+  },
+  {
+    "id": 50,
+    "title": "禁止覆寫既有檔案",
+    "source": "practice/50_noclobber.sh",
+    "entry": "",
+    "goal": ""
+  }
+]

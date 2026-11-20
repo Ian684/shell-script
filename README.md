@@ -1,5 +1,9 @@
 # Shell 日常腳本練習
 
+**目前共 50 個實作練習單元。** 完整題號、來源與執行方式見 [CATALOG.md](CATALOG.md)，機器可讀清單見 [EXERCISES.json](EXERCISES.json)。
+
+以下保留起步練習的說明；其餘題目按完整目錄閱讀。
+
 原本 practice1.sh、systemd.sh 保留。新增 practice/ 使用 /bin/sh 語法，練習參數、引號、結束碼、暫存檔與文字處理。需要 Linux 的 awk、sort、tar、mktemp 等工具。
 
     sh practice/log_summary.sh examples/app.txt
@@ -26,3 +30,5 @@ inventory_totals 用暫存檔，避免 awk 的失敗被後方 sort 蓋掉。它�
 snapshot 先完成暫存壓縮，再用硬連結發佈，目的檔已存在時不覆寫。暫存檔與輸出同目錄，路徑先轉成實體路徑。它不保證來源持續變動時的快照一致性。
 
 測試全程操作暫存目錄，檢查壓縮內容、拒絕覆寫、錯誤輸入與重試次數，不呼叫舊 systemd 腳本修改主機服務。
+
+新增案例需要 GNU/Linux coreutils、findutils、tar、awk 與 Python 3；部分文字題以 ASCII 為範圍，數值題使用小整數。每題參數及預期輸出保存在 curriculum.json。測試只操作隔離的暫存目錄。

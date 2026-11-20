@@ -1,0 +1,1263 @@
+[
+  {
+    "id": 5,
+    "slug": "argument_count",
+    "title": "參數與空白邊界",
+    "cases": [
+      {
+        "input": "",
+        "out": "3\n",
+        "args": [
+          "a b",
+          "",
+          "c"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/05_argument_count.sh"
+  },
+  {
+    "id": 6,
+    "slug": "options",
+    "title": "getopts 選項解析",
+    "cases": [
+      {
+        "input": "",
+        "out": "ALICE\n",
+        "args": [
+          "-n",
+          "Alice",
+          "-u"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "world\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/06_options.sh"
+  },
+  {
+    "id": 7,
+    "slug": "sum",
+    "title": "整數參數加總",
+    "cases": [
+      {
+        "input": "",
+        "out": "6\n",
+        "args": [
+          "1",
+          "2",
+          "3"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/07_sum.sh"
+  },
+  {
+    "id": 8,
+    "slug": "maximum",
+    "title": "最大值與無輸入",
+    "cases": [
+      {
+        "input": "",
+        "out": "-1\n",
+        "args": [
+          "-5",
+          "-1",
+          "-3"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 2,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/08_maximum.sh"
+  },
+  {
+    "id": 9,
+    "slug": "factorial",
+    "title": "迴圈與數值上限",
+    "cases": [
+      {
+        "input": "",
+        "out": "120\n",
+        "args": [
+          "5"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "1\n",
+        "args": [
+          "0"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/09_factorial.sh"
+  },
+  {
+    "id": 10,
+    "slug": "fizzbuzz",
+    "title": "條件判斷優先順序",
+    "cases": [
+      {
+        "input": "",
+        "out": "1\n2\nFizz\n4\nBuzz\n",
+        "args": [
+          "5"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "0"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/10_fizzbuzz.sh"
+  },
+  {
+    "id": 11,
+    "slug": "range",
+    "title": "有界整數序列",
+    "cases": [
+      {
+        "input": "",
+        "out": "-1\n0\n1\n",
+        "args": [
+          "-1",
+          "1"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "3",
+          "2"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/11_range.sh"
+  },
+  {
+    "id": 12,
+    "slug": "gcd",
+    "title": "餘數與交換變數",
+    "cases": [
+      {
+        "input": "",
+        "out": "6\n",
+        "args": [
+          "48",
+          "18"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [
+          "0",
+          "0"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/12_gcd.sh"
+  },
+  {
+    "id": 13,
+    "slug": "binary",
+    "title": "十進位轉二進位",
+    "cases": [
+      {
+        "input": "",
+        "out": "1101\n",
+        "args": [
+          "13"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [
+          "0"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/13_binary.sh"
+  },
+  {
+    "id": 14,
+    "slug": "palindrome",
+    "title": "ASCII 回文與 tr",
+    "cases": [
+      {
+        "input": "",
+        "out": "yes\n",
+        "args": [
+          "Never odd or even"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "no\n",
+        "args": [
+          "abc"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/14_palindrome.sh"
+  },
+  {
+    "id": 15,
+    "slug": "reverse_lines",
+    "title": "逐行反轉字元",
+    "cases": [
+      {
+        "input": "abc\nde\n",
+        "out": "cba\ned\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/15_reverse_lines.sh"
+  },
+  {
+    "id": 16,
+    "slug": "trim",
+    "title": "修剪每行兩端空白",
+    "cases": [
+      {
+        "input": "  a b \n\tc\t\n",
+        "out": "a b\nc\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "   \n",
+        "out": "\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/16_trim.sh"
+  },
+  {
+    "id": 17,
+    "slug": "collapse",
+    "title": "合併行內空白",
+    "cases": [
+      {
+        "input": " a   b\tc \n",
+        "out": "a b c\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "\n",
+        "out": "\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/17_collapse.sh"
+  },
+  {
+    "id": 18,
+    "slug": "line_numbers",
+    "title": "列號與空白列",
+    "cases": [
+      {
+        "input": "a\n\nb\n",
+        "out": "1\ta\n2\t\n3\tb\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/18_line_numbers.sh"
+  },
+  {
+    "id": 19,
+    "slug": "adjacent_unique",
+    "title": "相鄰重複與 uniq",
+    "cases": [
+      {
+        "input": "a\na\nb\na\n",
+        "out": "a\nb\na\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/19_adjacent_unique.sh"
+  },
+  {
+    "id": 20,
+    "slug": "unique_order",
+    "title": "保留首次出現順序",
+    "cases": [
+      {
+        "input": "b\na\nb\nc\n",
+        "out": "b\na\nc\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "\n\n",
+        "out": "\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/20_unique_order.sh"
+  },
+  {
+    "id": 21,
+    "slug": "numeric_sort",
+    "title": "數字排序不是字典序",
+    "cases": [
+      {
+        "input": "10\n2\n-1\n",
+        "out": "-1\n2\n10\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "3\n3\n",
+        "out": "3\n3\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/21_numeric_sort.sh"
+  },
+  {
+    "id": 22,
+    "slug": "frequency",
+    "title": "行頻率與確定性排序",
+    "cases": [
+      {
+        "input": "b\na\nb\n",
+        "out": "a\t1\nb\t2\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/22_frequency.sh"
+  },
+  {
+    "id": 23,
+    "slug": "longest_line",
+    "title": "最長行平手取第一個",
+    "cases": [
+      {
+        "input": "ab\nhello\nworld\n",
+        "out": "hello\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/23_longest_line.sh"
+  },
+  {
+    "id": 24,
+    "slug": "literal_replace",
+    "title": "字面文字替換而非正規式",
+    "cases": [
+      {
+        "input": "a.b.a.b\n",
+        "out": "a_b_a_b\n",
+        "args": [
+          ".",
+          "_"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "aaa\n",
+        "out": "Xa\n",
+        "args": [
+          "aa",
+          "X"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/24_literal_replace.sh"
+  },
+  {
+    "id": 25,
+    "slug": "tsv_column",
+    "title": "指定 TSV 欄位",
+    "cases": [
+      {
+        "input": "a\tb\tc\n1\t2\t3\n",
+        "out": "b\n2\n",
+        "args": [
+          "2"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "a\n",
+        "out": "",
+        "args": [
+          "2"
+        ],
+        "status": 2,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/25_tsv_column.sh"
+  },
+  {
+    "id": 26,
+    "slug": "csv_quote",
+    "title": "CSV 引號跳脫",
+    "cases": [
+      {
+        "input": "a,b\nx\"y\n",
+        "out": "\"a,b\"\n\"x\"\"y\"\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "\n",
+        "out": "\"\"\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/26_csv_quote.sh"
+  },
+  {
+    "id": 27,
+    "slug": "join_lines",
+    "title": "以分隔符串接",
+    "cases": [
+      {
+        "input": "a\nb\nc\n",
+        "out": "a,b,c\n",
+        "args": [
+          ","
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          ","
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/27_join_lines.sh"
+  },
+  {
+    "id": 28,
+    "slug": "split_colon",
+    "title": "字元分隔轉行",
+    "cases": [
+      {
+        "input": "a:b:c\n",
+        "out": "a\nb\nc\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "a::b\n",
+        "out": "a\n\nb\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/28_split_colon.sh"
+  },
+  {
+    "id": 29,
+    "slug": "comments",
+    "title": "跳過註解與空行",
+    "cases": [
+      {
+        "input": "# note\n a\n \n  # x\nb\n",
+        "out": " a\nb\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": " \n#x\n",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/29_comments.sh"
+  },
+  {
+    "id": 30,
+    "slug": "blank_count",
+    "title": "空白列計數",
+    "cases": [
+      {
+        "input": "a\n\n \n",
+        "out": "2\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/30_blank_count.sh"
+  },
+  {
+    "id": 31,
+    "slug": "sum_column",
+    "title": "欄位檢查與失敗碼",
+    "cases": [
+      {
+        "input": "a\t2\nb\t-1\n",
+        "out": "1\n",
+        "args": [
+          "2"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "a\tx\n",
+        "out": "",
+        "args": [
+          "2"
+        ],
+        "status": 2,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/31_sum_column.sh"
+  },
+  {
+    "id": 32,
+    "slug": "running_sum",
+    "title": "逐列累計",
+    "cases": [
+      {
+        "input": "2\n-3\n5\n",
+        "out": "2\n-1\n4\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/32_running_sum.sh"
+  },
+  {
+    "id": 33,
+    "slug": "digit_histogram",
+    "title": "數字字元直方圖",
+    "cases": [
+      {
+        "input": "1099\n",
+        "out": "0:1\n1:1\n2:0\n3:0\n4:0\n5:0\n6:0\n7:0\n8:0\n9:2\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0:0\n1:0\n2:0\n3:0\n4:0\n5:0\n6:0\n7:0\n8:0\n9:0\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/33_digit_histogram.sh"
+  },
+  {
+    "id": 34,
+    "slug": "validate_date",
+    "title": "GNU date 與嚴格往返",
+    "cases": [
+      {
+        "input": "",
+        "out": "2024-02-29\n",
+        "args": [
+          "2024-02-29"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "2026-02-30"
+        ],
+        "status": 2,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/34_validate_date.sh"
+  },
+  {
+    "id": 35,
+    "slug": "duration",
+    "title": "秒數轉時分秒",
+    "cases": [
+      {
+        "input": "",
+        "out": "25:01:01\n",
+        "args": [
+          "90061"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0:00:00\n",
+        "args": [
+          "0"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/35_duration.sh"
+  },
+  {
+    "id": 36,
+    "slug": "days_between",
+    "title": "UTC 日期差",
+    "cases": [
+      {
+        "input": "",
+        "out": "2\n",
+        "args": [
+          "2024-02-28",
+          "2024-03-01"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "-1\n",
+        "args": [
+          "2026-01-02",
+          "2026-01-01"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/36_days_between.sh"
+  },
+  {
+    "id": 37,
+    "slug": "human_bytes",
+    "title": "awk 的容量格式",
+    "cases": [
+      {
+        "input": "",
+        "out": "1.50 KiB\n",
+        "args": [
+          "1536"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0.00 B\n",
+        "args": [
+          "0"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/37_human_bytes.sh"
+  },
+  {
+    "id": 38,
+    "slug": "extension",
+    "title": "參數展開取副檔名",
+    "cases": [
+      {
+        "input": "",
+        "out": "gz\n",
+        "args": [
+          "a/report.tar.gz"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "\n",
+        "args": [
+          ".profile"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/38_extension.sh"
+  },
+  {
+    "id": 39,
+    "slug": "count_files",
+    "title": "find 計數支援空白檔名",
+    "cases": [
+      {
+        "input": "",
+        "out": "2\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {
+          "root/a b": "x",
+          "root/sub/c": "y"
+        },
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": [
+          "root"
+        ]
+      }
+    ],
+    "path": "practice/39_count_files.sh"
+  },
+  {
+    "id": 40,
+    "slug": "empty_files",
+    "title": "找空檔案",
+    "cases": [
+      {
+        "input": "",
+        "out": "empty\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {
+          "root/empty": "",
+          "root/full": "x"
+        },
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {
+          "root/a": "x"
+        },
+        "dirs": []
+      }
+    ],
+    "path": "practice/40_empty_files.sh"
+  },
+  {
+    "id": 41,
+    "slug": "sha256",
+    "title": "標準輸入校驗碼",
+    "cases": [
+      {
+        "input": "abc",
+        "out": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/41_sha256.sh"
+  },
+  {
+    "id": 42,
+    "slug": "base64_decode",
+    "title": "解碼的錯誤碼",
+    "cases": [
+      {
+        "input": "SGVsbG8=",
+        "out": "Hello",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "!!",
+        "out": "",
+        "args": [],
+        "status": 1,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/42_base64_decode.sh"
+  },
+  {
+    "id": 43,
+    "slug": "tar_list",
+    "title": "唯讀檢視壓縮檔",
+    "cases": [
+      {
+        "input": "",
+        "out": "./\n./a\n./b\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {
+          "root/a": "x",
+          "root/b": "y"
+        },
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "./\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": [
+          "root"
+        ]
+      }
+    ],
+    "path": "practice/43_tar_list.sh"
+  },
+  {
+    "id": 44,
+    "slug": "extension_report",
+    "title": "目錄副檔名統計",
+    "cases": [
+      {
+        "input": "",
+        "out": "(none)\t1\ntxt\t2\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {
+          "root/a.txt": "",
+          "root/b.TXT": "",
+          "root/README": ""
+        },
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": [
+          "root"
+        ]
+      }
+    ],
+    "path": "practice/44_extension_report.sh"
+  },
+  {
+    "id": 45,
+    "slug": "temporary_cleanup",
+    "title": "trap 清理暫存資源",
+    "cases": [
+      {
+        "input": "",
+        "out": "6\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "ignored",
+        "out": "6\n",
+        "args": [],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/45_temporary_cleanup.sh"
+  },
+  {
+    "id": 46,
+    "slug": "directory_lock",
+    "title": "mkdir 互斥鎖",
+    "cases": [
+      {
+        "input": "",
+        "out": "locked\n",
+        "args": [
+          "${TMP}/lock",
+          "printf",
+          "locked\n"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "${TMP}/lock",
+          "true"
+        ],
+        "status": 75,
+        "files": {},
+        "dirs": [
+          "lock"
+        ]
+      }
+    ],
+    "path": "practice/46_directory_lock.sh"
+  },
+  {
+    "id": 47,
+    "slug": "background_status",
+    "title": "wait 保留背景結束碼",
+    "cases": [
+      {
+        "input": "",
+        "out": "7\n",
+        "args": [
+          "sh",
+          "-c",
+          "exit 7"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [
+          "true"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/47_background_status.sh"
+  },
+  {
+    "id": 48,
+    "slug": "stderr_capture",
+    "title": "分開 stdout 與 stderr",
+    "cases": [
+      {
+        "input": "",
+        "out": "ok\nstderr=bad\nstatus=3\n",
+        "args": [
+          "sh",
+          "-c",
+          "printf 'ok\\n'; printf 'bad\\n' >&2; exit 3"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "stderr=status=0\n",
+        "args": [
+          "true"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      }
+    ],
+    "path": "practice/48_stderr_capture.sh"
+  },
+  {
+    "id": 49,
+    "slug": "null_paths",
+    "title": "NUL 分隔的檔名管線",
+    "cases": [
+      {
+        "input": "",
+        "out": "2\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {
+          "root/a b": "x",
+          "root/a\nb": "y"
+        },
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "0\n",
+        "args": [
+          "${TMP}/root"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": [
+          "root"
+        ]
+      }
+    ],
+    "path": "practice/49_null_paths.sh"
+  },
+  {
+    "id": 50,
+    "slug": "noclobber",
+    "title": "禁止覆寫既有檔案",
+    "cases": [
+      {
+        "input": "",
+        "out": "created\n",
+        "args": [
+          "${TMP}/new"
+        ],
+        "status": 0,
+        "files": {},
+        "dirs": []
+      },
+      {
+        "input": "",
+        "out": "",
+        "args": [
+          "${TMP}/old"
+        ],
+        "status": 2,
+        "files": {
+          "old": "keep"
+        },
+        "dirs": []
+      }
+    ],
+    "path": "practice/50_noclobber.sh"
+  }
+]
