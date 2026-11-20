@@ -21,4 +21,4 @@ for task in tasks:
             assert (result.returncode,result.stdout)==(example['status'],example['out']), (task['id'],task['slug'],result.returncode,result.stdout,result.stderr,example)
             if task['slug']=='directory_lock' and result.returncode==0:assert not (temporary/'lock').exists()
             if task['slug']=='noclobber' and result.returncode!=0:assert (temporary/'old').read_text()=='keep'
-print('46 additional shell exercises: examples, failure codes and filesystem checks passed')
+print('Shell exercises: examples, failure codes and filesystem checks passed')
