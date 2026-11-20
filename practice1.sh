@@ -53,4 +53,3 @@
 #        zip -r "${file}.zip" "$file"
 #     fi
 # done
-
