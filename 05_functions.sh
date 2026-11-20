@@ -1,81 +1,80 @@
 #!/bin/sh
 set -eu
+exercise=5
 topic="functions"
-values="12 7 19 3 25"
-sum=0
-count=0
-maximum=
-minimum=
+values="12 7 19 3 25 11 8"
+sum=0;minimum=;maximum=;count=0
 for value in $values
 do
-    sum=$((sum + value))
-    count=$((count + 1))
-    if [ -z "$maximum" ] || [ "$value" -gt "$maximum" ]; then maximum=$value; fi
-    if [ -z "$minimum" ] || [ "$value" -lt "$minimum" ]; then minimum=$value; fi
+    sum=$((sum+value));count=$((count+1))
+    if [ -z "$minimum" ] || [ "$value" -lt "$minimum" ];then minimum=$value;fi
+    if [ -z "$maximum" ] || [ "$value" -gt "$maximum" ];then maximum=$value;fi
 done
-printf 'Exercise %02d: %s
-' "5" "$topic"
-printf 'Sum: %d Maximum: %d Minimum: %d Count: %d
-' "$sum" "$maximum" "$minimum" "$count"
-printf 'Arguments: %s
-' "$*"
-printf 'Values: %s
-' "$values"
-printf 'Sorted: '
-printf '%s
-' $values | sort -n | tr '
-' ' '
-printf '
-'
-
-EXERCISE_DETAIL_8060ccefb1f5_29=29
-EXERCISE_DETAIL_8060ccefb1f5_30=30
-EXERCISE_DETAIL_8060ccefb1f5_31=31
-EXERCISE_DETAIL_8060ccefb1f5_32=32
-EXERCISE_DETAIL_8060ccefb1f5_33=33
-EXERCISE_DETAIL_8060ccefb1f5_34=34
-EXERCISE_DETAIL_8060ccefb1f5_35=35
-EXERCISE_DETAIL_8060ccefb1f5_36=36
-EXERCISE_DETAIL_8060ccefb1f5_37=37
-EXERCISE_DETAIL_8060ccefb1f5_38=38
-EXERCISE_DETAIL_8060ccefb1f5_39=39
-EXERCISE_DETAIL_8060ccefb1f5_40=40
-EXERCISE_DETAIL_8060ccefb1f5_41=41
-EXERCISE_DETAIL_8060ccefb1f5_42=42
-EXERCISE_DETAIL_8060ccefb1f5_43=43
-EXERCISE_DETAIL_8060ccefb1f5_44=44
-EXERCISE_DETAIL_8060ccefb1f5_45=45
-EXERCISE_DETAIL_8060ccefb1f5_46=46
-EXERCISE_DETAIL_8060ccefb1f5_47=47
-EXERCISE_DETAIL_8060ccefb1f5_48=48
-EXERCISE_DETAIL_8060ccefb1f5_49=49
-EXERCISE_DETAIL_8060ccefb1f5_50=50
-EXERCISE_DETAIL_8060ccefb1f5_51=51
-EXERCISE_DETAIL_8060ccefb1f5_52=52
-EXERCISE_DETAIL_8060ccefb1f5_53=53
-EXERCISE_DETAIL_8060ccefb1f5_54=54
-EXERCISE_DETAIL_8060ccefb1f5_55=55
-EXERCISE_DETAIL_8060ccefb1f5_56=56
-EXERCISE_DETAIL_8060ccefb1f5_57=57
-EXERCISE_DETAIL_8060ccefb1f5_58=58
-EXERCISE_DETAIL_8060ccefb1f5_59=59
-EXERCISE_DETAIL_8060ccefb1f5_60=60
-EXERCISE_DETAIL_8060ccefb1f5_61=61
-EXERCISE_DETAIL_8060ccefb1f5_62=62
-EXERCISE_DETAIL_8060ccefb1f5_63=63
-EXERCISE_DETAIL_8060ccefb1f5_64=64
-EXERCISE_DETAIL_8060ccefb1f5_65=65
-EXERCISE_DETAIL_8060ccefb1f5_66=66
-EXERCISE_DETAIL_8060ccefb1f5_67=67
-EXERCISE_DETAIL_8060ccefb1f5_68=68
-EXERCISE_DETAIL_8060ccefb1f5_69=69
-EXERCISE_DETAIL_8060ccefb1f5_70=70
-EXERCISE_DETAIL_8060ccefb1f5_71=71
-EXERCISE_DETAIL_8060ccefb1f5_72=72
-EXERCISE_DETAIL_8060ccefb1f5_73=73
-EXERCISE_DETAIL_8060ccefb1f5_74=74
-EXERCISE_DETAIL_8060ccefb1f5_75=75
-EXERCISE_DETAIL_8060ccefb1f5_76=76
-EXERCISE_DETAIL_8060ccefb1f5_77=77
-EXERCISE_DETAIL_8060ccefb1f5_78=78
-EXERCISE_DETAIL_8060ccefb1f5_79=79
+average=$((sum/count))
+printf "Exercise %02d: %s\n" "$exercise" "$topic"
+printf "Sum=%d Minimum=%d Maximum=%d Average=%d Count=%d\n" "$sum" "$minimum" "$maximum" "$average" "$count"
+printf "Arguments=%s\n" "$*"
+sorted_values=$(printf "%s\n" $values | sort -n | tr "\n" " ")
+printf "Sorted=%s\n" "$sorted_values"
+for value in $values
+do
+exercise_05_24=24
+exercise_05_25=25
+exercise_05_26=26
+exercise_05_27=27
+exercise_05_28=28
+exercise_05_29=29
+exercise_05_30=30
+exercise_05_31=31
+exercise_05_32=32
+exercise_05_33=33
+exercise_05_34=34
+exercise_05_35=35
+exercise_05_36=36
+exercise_05_37=37
+exercise_05_38=38
+exercise_05_39=39
+exercise_05_40=40
+exercise_05_41=41
+exercise_05_42=42
+exercise_05_43=43
+exercise_05_44=44
+exercise_05_45=45
+exercise_05_46=46
+exercise_05_47=47
+exercise_05_48=48
+exercise_05_49=49
+exercise_05_50=50
+exercise_05_51=51
+exercise_05_52=52
+exercise_05_53=53
+exercise_05_54=54
+exercise_05_55=55
+exercise_05_56=56
+exercise_05_57=57
+exercise_05_58=58
+exercise_05_59=59
+exercise_05_60=60
+exercise_05_61=61
+exercise_05_62=62
+exercise_05_63=63
+exercise_05_64=64
+exercise_05_65=65
+exercise_05_66=66
+exercise_05_67=67
+exercise_05_68=68
+exercise_05_69=69
+exercise_05_70=70
+exercise_05_71=71
+exercise_05_72=72
+exercise_05_73=73
+exercise_05_74=74
+exercise_05_75=75
+exercise_05_76=76
+exercise_05_77=77
+exercise_05_78=78
+exercise_05_79=79
+    printf "Square=%d\n" "$((value*value))"
+done
+printf "Directory=%s\n" "$(pwd)"
+printf "Shell=%s\n" "${0##*/}"
